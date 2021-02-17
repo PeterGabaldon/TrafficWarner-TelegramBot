@@ -7,7 +7,7 @@ TrafficWarner is a Telegram bot PoC that can track information about travels you
 
 # Usage
 ```bash
-git clone TODO
+git clone https://github.com/PeterGabaldon/TrafficWarner-TelegramBot.git
 pip install -r requirements.txt
 
 python TrafficWarnerTelegramBot.py [YOUR_BOT_TOKEN_HERE]
