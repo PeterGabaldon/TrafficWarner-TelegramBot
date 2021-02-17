@@ -6,7 +6,7 @@
 TrafficWarner is a Telegram bot PoC that can track information about travels you want using Google Maps Directions API. Using `\add` the bot will ask you about a source an a destination, after that and after configuring the route options(avoid tolls, avoid ferries, avoid highways) the new Travel is added. `TrafficWarner.py` reads the configured travels and ask Google Maps Directions API to update information about the route(s) of the travel(s). You should run it in a Cronjob, in a terminal loop or something similar. `AlertUsers.py` can be used to alert users if the trip status has changed to a worse one, for example, if a route trip is "green" in Google Maps so the traffic is normal but for some reason changes and now the traffic is heavy the users will be warned about it.
 
 # Usage
-```console
+```bash
 git clone TODO
 pip install -r requirements.txt
 
@@ -34,4 +34,4 @@ Only allowed users can use the bot. Edit `AllowedUsers.json` adding your Telegra
 ```
 
 # Demo
-[![Demo video]()](https://www.youtube.com/watch?v=UQf8vznHKqs)
+[![Demo video](https://github.com/PeterGabaldon/TrafficWarner-TelegramBot/blob/main/thumb.png?raw=true)](https://www.youtube.com/watch?v=UQf8vznHKqs)
