@@ -14,7 +14,7 @@ python TrafficWarnerTelegramBot.py [YOUR_BOT_TOKEN_HERE]
 python TrafficWarner.py
 python AlertUsers.py [YOUR_BOT_TOKEN_HERE]
 ```
-The last two are optional, run it if you want the traffic status being auto-updateded and/or to alert users aboout changes in traffic status.
+The last two are optional, run it in a loop or scheduled if you want the traffic status being auto-updateded and/or to alert users aboout changes in traffic status.
 
 ## Authorization
 You need to contact the [Bot Father](https://t.me/botfather) in order to create a Telegram Bot and receive an API Token. Also you will need to create a projet on **Google Cloud Platform** and create and API Key to access the Google Maps API, create this one [here](https://console.cloud.google.com/google/maps-apis/credentials). After that modify `config.json` to add your **Google Maps API** Key. The `ChatsID.txt` file is used by `AlertUsers.py` to keep track about started chats to notify them when required. 
